@@ -1,11 +1,5 @@
 @import "../css/body.css";
-
-@font-face {
-   font-family: "Caviar Dreams";
-	src: url('../fonts/CaviarDreams.ttf');
-	font-weight: normal;
-   font-style: normal;
-}
+@import "../css/fonts.css";
 
 #business-card{
 	margin:auto;

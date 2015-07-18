@@ -1,35 +1,9 @@
+@import "../css/fonts.css";
+
 body {
   background-color: #1F1F1F; 
   color: white;
   font-family: "Cicle";
-}
-
-@font-face {
-   font-family: "Cicle";
-   src: url('../fonts/Cicle_Fina.ttf');
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-    font-family: "Cicle";
-    src: url('../fonts/Cicle_Fina_Italic.ttf');
-    font-weight: italic;
-    font-style: italic;
-}
-
-@font-face {
-   font-family: "Caviar Dreams";
-   src: url('../fonts/CaviarDreams.ttf');
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: "Norwester";
-   src: url('../fonts/norwester.otf');
-   font-weight: normal;
-   font-style: normal;
 }
 
 a, a:active, a:hover {
