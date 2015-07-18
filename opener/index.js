@@ -22,7 +22,7 @@ function getFullDate() {
 //TYPED.JS animation
 $(function() {
 	$(".type-text").typed({
-		strings:["<br> ^1250Hello, world!<br><br>I'm Brandon Choi.<br> ^800Developer, writer, photographer.<br><br> ^500Press 'ENTER' to learn more about me and what I do.<br><br> ^100START  "],
+		strings:["<br> ^1250Hello, world!<br><br>I'm Brandon Choi.<br> ^800Developer, writer, photographer.<br><br> ^500Press 'ENTER' to learn more about me and what I do.<br><br> ^100<span id='start'>START</span>  "],
 		typeSpeed: 35,
 	});
 });
@@ -32,6 +32,10 @@ $(document).keypress(function(e) {
 	if (e.which == 13) {
 		window.location = "../about/about.html";
 	}
+});
+
+$("#start").click(function(){
+	window.location = "../about/about.html";
 });
 
 
