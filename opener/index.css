@@ -8,12 +8,15 @@ body {
 @font-face {
    font-family: "Cicle";
     src: url('../fonts/Cicle_Fina.ttf');
+    font-weight: normal;
+   font-style: normal;
 } 
 
 @font-face {
     font-family: "Cicle";
     src: url('../fonts/Cicle_Fina_Italic.ttf');
     font-weight: italic;
+    font-style: italic;
 }
 
 /* CSS for TYPED.JS */
