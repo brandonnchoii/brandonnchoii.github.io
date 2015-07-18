@@ -1,11 +1,15 @@
 body {
     font-family: "Cicle";
-    src: url('../fonts/Cicle_Fina.ttf');
-    src: url('../fonts/Cicle_Fina_Italic.ttf');
     font-size: 260%;
     background-color: #1F1F1F;
     color: white;
 }
+
+@font-face {
+   font-family: "Cicle";
+    src: url('../fonts/Cicle_Fina.ttf');
+    src: url('../fonts/Cicle_Fina_Italic.ttf');
+} 
 
 
 /* CSS for TYPED.JS */

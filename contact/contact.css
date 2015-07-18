@@ -1,5 +1,10 @@
 @import "../css/body.css";
 
+@font-face {
+   font-family: "Caviar Dreams";
+	src: url('../fonts/CaviarDreams.ttf');
+}
+
 #business-card{
 	margin:auto;
 	padding-top: 20%;
@@ -20,7 +25,6 @@
 	padding-top: 5%;
 	opacity: 0.8;
 	font-family: "Caviar Dreams";
-	src: url('../fonts/CaviarDreams.ttf');
 }
 	#back:hover{
 		color: #D64D4D;
