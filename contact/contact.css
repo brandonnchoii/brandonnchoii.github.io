@@ -19,7 +19,8 @@
 	font-size: 15px;
 	padding-top: 5%;
 	opacity: 0.8;
-	font-family: "Caviar Dreams"
+	font-family: "Caviar Dreams";
+	src: url('../fonts/CaviarDreams.ttf');
 }
 	#back:hover{
 		color: #D64D4D;

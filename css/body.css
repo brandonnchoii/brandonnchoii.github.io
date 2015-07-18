@@ -2,6 +2,8 @@ body {
   background-color: #1F1F1F; 
   color: white;
   font-family: "Cicle";
+  src: url('../fonts/Cicle_Fina.ttf');
+  src: url('../fonts/Cicle_Fina_Italic.ttf');
 }
 
 a, a:active, a:hover {
@@ -13,6 +15,7 @@ a, a:active, a:hover {
 .bar {
   font-size: 90%;
   font-family: "Caviar Dreams";
+  src: url('../fonts/CaviarDreams.ttf');
   margin-top: 3%;
   margin-left: 5%;
   text-align: right;
@@ -33,6 +36,7 @@ a, a:active, a:hover {
 .header{
   font-size: 80px;
   font-family: "Norwester";
+  src: url('../fonts/norwester.otf');
   color: #5F9C99;
   text-align: center;
   padding-top: 4%;
