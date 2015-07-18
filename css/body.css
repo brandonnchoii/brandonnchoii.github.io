@@ -6,18 +6,23 @@ body {
 
 @font-face {
    font-family: "Cicle";
-  src: url('../fonts/Cicle_Fina.ttf');
-  src: url('../fonts/Cicle_Fina_Italic.ttf');
+   src: url('../fonts/Cicle_Fina.ttf');
+}
+
+@font-face {
+    font-family: "Cicle";
+    src: url('../fonts/Cicle_Fina_Italic.ttf');
+    font-weight: italic;
 }
 
 @font-face {
    font-family: "Caviar Dreams";
-  src: url('../fonts/CaviarDreams.ttf');
+   src: url('../fonts/CaviarDreams.ttf');
 }
 
 @font-face {
    font-family: "Norwester";
-  src: url('../fonts/norwester.otf');
+   src: url('../fonts/norwester.otf');
 }
 
 a, a:active, a:hover {

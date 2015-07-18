@@ -8,9 +8,13 @@ body {
 @font-face {
    font-family: "Cicle";
     src: url('../fonts/Cicle_Fina.ttf');
-    src: url('../fonts/Cicle_Fina_Italic.ttf');
 } 
 
+@font-face {
+    font-family: "Cicle";
+    src: url('../fonts/Cicle_Fina_Italic.ttf');
+    font-weight: italic;
+}
 
 /* CSS for TYPED.JS */
 .typed-cursor{
@@ -34,8 +38,6 @@ body {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-
-
 
 #container {
     margin-top: 8%;
