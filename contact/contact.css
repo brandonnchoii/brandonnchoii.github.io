@@ -1,0 +1,27 @@
+@import "../css/body.css";
+
+#business-card{
+	margin:auto;
+	padding-top: 20%;
+	padding-bottom: 30%;
+}
+
+#contact-info{
+	text-align: center;
+	font-size: 25px;
+}
+
+#email {
+	color: #5F9C99;
+}
+
+#back {
+	font-size: 15px;
+	padding-top: 5%;
+	opacity: 0.8;
+	font-family: "Caviar Dreams"
+}
+	#back:hover{
+		color: #D64D4D;
+		cursor: pointer;
+	}

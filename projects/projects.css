@@ -1,0 +1,24 @@
+@import "../css/body.css";
+
+.project {
+	font-size: 35px;
+	color: #5F9C99;
+}
+
+.subheader {
+	font-size: 19px;
+	color: white;
+}
+
+.description {
+	font-size: 15px;
+}
+
+	.desc-label {
+		font-size: 17px;
+		color: #866FA3;
+	}
+
+.project-box{
+	padding-bottom: 3%
+}

@@ -1,0 +1,32 @@
+@import "../css/body.css";
+
+#description {
+	text-align: left;
+	font-size: 150%;
+}
+
+.toggler {
+	color: #5F9C99;
+}
+	.toggler:hover{
+		cursor: pointer;
+		text-decoration: underline;
+		color: #5F9C99;
+	}
+
+#extender {
+	display: inline;
+}
+
+#learn-more {
+	display: none;
+}
+
+#about-me {
+	color: #5F9C99;
+}
+
+#less {
+	text-align: center;
+}
+
