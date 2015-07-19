@@ -15,6 +15,10 @@
 #email {
 	color: #5F9C99;
 }
+	#email:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
 
 #back {
 	font-size: 15px;
