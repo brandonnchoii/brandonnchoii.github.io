@@ -1,29 +1,22 @@
-@import "../css/body.css";
+@import "../css/global.css";
 
-#description {
-	text-align: left;
-	font-size: 150%;
+#home-content {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 0 6% 0 6%;
+	font-size: 16px;
 }
 
 .toggler {
-	color: #5F9C99;
+	color: #E84343;
 }
-	.toggler:hover{
-		cursor: pointer;
+	.toggler:hover {
 		text-decoration: underline;
-		color: #5F9C99;
+		cursor: pointer;
 	}
 
-#extender {
-	display: inline;
-}
-
-#learn-more {
-	display: none;
-}
-
 #about-me {
-	color: #5F9C99;
+	display: none;
 }
 
 #prof-pic {
@@ -31,7 +24,6 @@
 	height: auto;
 }
 
-#less {
+#less-container {
 	text-align: center;
 }
-

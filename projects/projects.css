@@ -1,24 +1,31 @@
-@import "../css/body.css";
+@import "../css/global.css";
 
-.project {
-	font-size: 35px;
-	color: #5F9C99;
+#project-info {
+	margin-top: 2%;
+	margin-bottom: 3.5%;
+}
+
+.project-box {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.project-label {
+	font-family: "League Gothic";
+}
+
+.project-name {
+	font-size: 2.5vw;
 }
 
 .subheader {
-	font-size: 19px;
-	color: white;
+	font-size: 1.5vw;
 }
 
 .description {
-	font-size: 15px;
+	font-size: 1vw;
 }
-
 	.desc-label {
-		font-size: 17px;
-		color: #866FA3;
+		color: #E84343;
+		font-weight: bold;
 	}
-
-.project-box{
-	padding-bottom: 3%
-}

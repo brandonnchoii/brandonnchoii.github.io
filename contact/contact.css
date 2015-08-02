@@ -1,32 +1,33 @@
-@import "../css/body.css";
-@import "../css/fonts.css";
-
-#business-card{
-	margin:auto;
-	padding-top: 20%;
-	padding-bottom: 30%;
+body {
+	display: none;
+	color: #4F4E4C;
+	font-family: "Pacifico";
+	font-size: 2.1vw;
 }
 
+a {
+	color: inherit;
+}
+	a:hover {
+		color:inherit;
+	}
+
 #contact-info{
+	margin-top: 20%;
 	text-align: center;
-	font-size: 25px;
 }
 
 #email {
-	color: #5F9C99;
+	font-family: "League Gothic";
+	color: #E84343;
 }
 	#email:hover {
 		cursor: pointer;
-		text-decoration: underline;
 	}
 
 #back {
-	font-size: 15px;
-	padding-top: 5%;
-	opacity: 0.8;
-	font-family: "Caviar Dreams";
+	font-size: 0.6em;
 }
-	#back:hover{
-		color: #D64D4D;
+	#back:hover {
 		cursor: pointer;
 	}

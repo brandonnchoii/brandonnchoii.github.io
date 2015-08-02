@@ -1,13 +1,12 @@
-fadeIn("#description", 2000);
-
+//toggles the read more option
 $(".toggler").click(function() {
-	$("#learn-more").toggle();
+	$("#about-me").toggle();
 });
 
+// changes focus of page
 $("#extender").click(function() {
 	document.getElementById('about-me').scrollIntoView();
 });
-
 $("#less").click(function() {
 	document.getElementById('description').scrollIntoView();
 });
