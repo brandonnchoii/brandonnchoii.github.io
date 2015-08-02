@@ -1,4 +1,5 @@
 /* css in global.css outlines the general styling for all the pages */
+@import "fonts.css";
 
 html {
 	border-top: 10px solid #E84343;
