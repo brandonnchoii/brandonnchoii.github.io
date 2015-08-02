@@ -46,3 +46,10 @@
    font-weight: normal;
    font-style: normal;
 }
+
+@font-face {
+   font-family: "Bebas Neue";
+   src: url('../fonts/BebasNeueRegular.otf');
+   font-weight: normal;
+   font-style: normal;
+}
