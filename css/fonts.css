@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: "Cicle";
+    src: url('../fonts/Cicle_Gordita.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
    font-family: "Caviar Dreams";
    src: url('../fonts/CaviarDreams.ttf');
    font-weight: normal;
@@ -20,8 +27,22 @@
 }
 
 @font-face {
-   font-family: "Norwester";
-   src: url('../fonts/norwester.otf');
+   font-family: "Caviar Dreams";
+   src: url('../fonts/Caviar_Dreams_Bold.ttf');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "League Gothic";
+   src: url('../fonts/LeagueGothic-Regular.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Pacifico";
+   src: url('../fonts/Pacifico.ttf');
    font-weight: normal;
    font-style: normal;
 }
