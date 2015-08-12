@@ -40,3 +40,9 @@ $("#start").click(function(){
 
 
 
+//MOBILE REDIRECT
+if (screen.width <= 800) {
+  	window.location = "../about/about.html";
+}
+
+
