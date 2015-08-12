@@ -2,7 +2,7 @@
 @import "fonts.css";
 
 html {
-	border-top: 10px solid #E84343;
+	border-top: 1.1vw solid #E84343;
 }
 
 body {
@@ -20,7 +20,7 @@ a {
 
 #name {
 	font-family: "Pacifico";
-	font-size: 68px;
+	font-size: 4.6vw;
 	text-align: center;
 	color: #E84343;
 	margin-top: 2.5%;
@@ -32,20 +32,20 @@ a {
 
 #tabs-container {
 	font-family: "Bebas Neue";
-	font-size: 21px;
+	font-size: 1.7vw;
 	text-align: center;
 	color: #E84343;
 }
 
 #tabs {
-	border-top: 10px double #E84343;
+	border-top: 0.9vw double #E84343;
 	padding-top: 1%;
 }
 
 footer {
 	color: #E84343;
 	text-align: center;
-	font-size: 12px;
+	font-size: 1vw;
 	font-family: "Caviar Dreams";
 	margin-bottom: 2.5%;
 }
