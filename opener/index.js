@@ -22,7 +22,7 @@ function getFullDate() {
 //TYPED.JS animation
 $(function() {
 	$(".type-text").typed({
-		strings:["<br> ^1250Hi, I'm Brandon.<br> ^600Developer & writer.<br><br> ^600Press 'ENTER' to learn more about me and what I do.<br><br> ^100<span id='start'>START</span>  "],
+		strings:["<br> ^1250Hi, I'm Brandon.<br> ^400Developer & writer.<br><br> ^600Press 'ENTER' to learn more about me and what I do.<br><br> ^100<span id='start'>START</span>  "],
 		typeSpeed: 35,
 	});
 });
