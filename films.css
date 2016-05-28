@@ -1,0 +1,51 @@
+@import "css/fonts.css";
+
+body {
+  background-color:#f7f5f3;
+  font-family:"Cicle";
+  color:black;
+  margin: 0 21% 0 21%;
+}
+
+a, a:hover {
+  color:#E84343;
+  cursor:pointer;
+}
+
+#back-button {
+	text-align: center;
+	font-family: "Variane Script";
+	font-size: 250%;
+	margin: 3% 0 0 0;
+}
+
+.col-xs-12 {
+	padding: 0;
+	margin: 0;
+}
+
+#videos {
+  text-align: center;
+}
+
+.video-box {
+  margin-bottom: 2%;
+}
+
+.description {
+  font-family: "League Gothic";
+  font-size: 175%;
+}
+
+.video {
+  min-width: 100%;
+	min-height: 35vw;
+}
+
+footer {
+    font-size: 100%;
+    text-align: center;
+    color: gray;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name='viewport' content='initial-scale=1.0, user-scalable=yes'>
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="films.css" rel="stylesheet">
+		<title>films.</title>
+	</head>
+	<body>
+		<!-- film content -->
+    <div id="videos">
+      <!-- marshmallow girl -->
+      <div class="row">
+        <div class="col-xs-12 video-box">
+          <span class="description">marshamallow girl<br>by brandon choi & cara o'malley</span>
+          <iframe src="https://www.youtube.com/embed/BVSVWT2kOjw" class="video"></iframe>
+        </div>
+      </div>
+      <!-- high strung -->
+      <div class="row">
+        <div class="col-xs-12 video-box">
+          <span class="description">high strung<br>by brandon choi & nathan bellis</span>
+          <iframe src="https://www.youtube.com/embed/-IpC78NwnJI" class="video"></iframe>
+        </div>
+      </div>
+      <!--midsouth -->
+      <div class="row">
+        <div class="col-xs-12 video-box">
+          <span class="description">mid south fencers' club<br>by brandon choi & jenny changnon</span>
+          <iframe src="https://www.youtube.com/embed/YWZeWSXg_Rk" class="video"></iframe>
+        </div>
+      </div>
+      <!-- final project  -->
+      <div class="row">
+        <div class="col-xs-12 video-box">
+          <span class="description">mid south fencers' club: version 2 <br>by brandon choi</span>
+          <iframe src="https://www.youtube.com/embed/mnIoIAxUzPw" class="video"></iframe>
+        </div>
+      </div>
+    </div>
+
+		<div class="row">
+			<div class="col-xs-12" id="back-button">
+				<a id="back">- back -</a>
+			</div>
+		</div>
+
+	</body>
+	<footer>
+		<div class="row" id="externals">
+			<a href="https://github.com/brandonnchoii">github</a> |
+			<a href="https://www.linkedin.com/in/brandonnchoii">linkedin</a> |
+			<a href="https://instagram.com/brandonnchoii/">instagram</a>
+		</div>
+		<div class="row" id="copyright">
+      		&copy; Brandon Choi 2016. All rights reserved.
+    </div>
+	</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script>
+			function goBack() {
+		    window.history.back();
+		 }
+
+		 $("#back").click(function() {
+		 	goBack();
+		 });
+		</script>
+</html>

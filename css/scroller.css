@@ -1,0 +1,99 @@
+@import "fonts.css";
+
+body {
+  display:none;
+  font-family:"Cicle";
+  color:black;
+}
+
+a, a:hover, a:active {
+  color:#E84343;
+  cursor:pointer;
+}
+
+#navbar {
+  width:100%;
+  position:fixed;
+  font-family:"League Gothic";
+  margin-top:1.3%;
+  text-align:center;
+  font-size:180%;
+}
+
+.nav-button, .nav-button:hover, .nav-button:active {
+  color: #5b575c;
+  cursor: pointer;
+}
+
+#intro {
+  padding-top:15%;
+  padding-bottom:25%;
+  text-align:center;
+  color:#E84343;
+}
+
+#name {
+  font-family:"Variane Script";
+  font-size:600%;
+  /* color:#2eb8b3; */
+}
+
+#description {
+  font-family: "League Gothic";
+  font-size: 200%;
+  color: #5b575c !important;
+}
+
+h1 {
+  text-align:center;
+  font-family:"Variane Script";
+  color:#E84343;
+  margin-bottom:2%;
+}
+
+.page {
+  padding: 15% 8% 25% 8%;
+}
+
+.odd {
+  background-color:#f7f5f3;
+}
+
+.even {
+  background-color:white;
+}
+
+.project {
+  margin-bottom: 4%;
+}
+
+.project-name {
+  font-size: 120%;
+}
+
+#writing-pieces {
+  text-align: center;
+}
+
+.writing {
+  color:black !important;
+}
+
+#photos {
+  text-align: center;
+}
+
+#contact {
+  font-family:"League Gothic";
+  color: #5b575c;
+  text-align: center;
+  font-size: 180%;
+}
+
+footer {
+    font-size: 100%;
+    text-align: center;
+    color: gray;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
