@@ -44,6 +44,12 @@ a, a:hover, a:active {
   color: #5b575c !important;
 }
 
+#instructions {
+  color:#E84343;
+  text-align: center;
+  margin: 5% 0 2% 0;
+}
+
 h1 {
   text-align:center;
   font-family:"Variane Script";
