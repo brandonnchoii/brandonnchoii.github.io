@@ -1,0 +1,34 @@
+@import "css/fonts.css";
+
+html, body {
+  font-family: "Bebas Neue";
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+  background-color:#f7f5f3;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#container {
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+
+#intro {
+  font-weight: bold;
+  color:#E84343;
+  font-size: 2.2em;
+}
+
+#info {
+  display: inline;
+  font-size: 1.2em;
+}
